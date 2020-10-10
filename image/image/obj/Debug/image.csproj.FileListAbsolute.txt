@@ -1,0 +1,15 @@
+C:\Users\Полина\source\repos\image\image\bin\Debug\image.exe.config
+C:\Users\Полина\source\repos\image\image\bin\Debug\image.exe
+C:\Users\Полина\source\repos\image\image\bin\Debug\image.pdb
+C:\Users\Полина\source\repos\image\image\obj\Debug\image.csprojAssemblyReference.cache
+C:\Users\Полина\source\repos\image\image\obj\Debug\MainWindow.g.cs
+C:\Users\Полина\source\repos\image\image\obj\Debug\App.g.cs
+C:\Users\Полина\source\repos\image\image\obj\Debug\image_MarkupCompile.cache
+C:\Users\Полина\source\repos\image\image\obj\Debug\image_MarkupCompile.lref
+C:\Users\Полина\source\repos\image\image\obj\Debug\MainWindow.baml
+C:\Users\Полина\source\repos\image\image\obj\Debug\image.g.resources
+C:\Users\Полина\source\repos\image\image\obj\Debug\image.Properties.Resources.resources
+C:\Users\Полина\source\repos\image\image\obj\Debug\image.csproj.GenerateResource.cache
+C:\Users\Полина\source\repos\image\image\obj\Debug\image.csproj.CoreCompileInputs.cache
+C:\Users\Полина\source\repos\image\image\obj\Debug\image.exe
+C:\Users\Полина\source\repos\image\image\obj\Debug\image.pdb

@@ -1,0 +1,35 @@
+﻿<Window x:Class="image.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:image"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="18px"/>
+            <RowDefinition Height="199*"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" Height="20" VerticalAlignment="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Open" Click="Open_Click"></MenuItem>
+            </MenuItem>
+            <MenuItem Header="Edit">
+                <MenuItem Header="Stretch">
+                    <MenuItem Header="Uniform" Click="Uniform_Click"></MenuItem>
+                    <MenuItem Header="UniformToFill" Click="UniformtoFill_Click"></MenuItem>
+                    <MenuItem Header="Fill" Click="Fill_Click"></MenuItem>
+                    <MenuItem Header="None" Click="None_Click"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="StretchDirection">
+                    <MenuItem Header="UpOnly" Click="UpOnly_Click"></MenuItem>
+                    <MenuItem Header="DownOnly" Click="DownOnly_Click"></MenuItem>
+                    <MenuItem Header="Both" Click="Both_Click"></MenuItem>
+                </MenuItem>
+            </MenuItem>
+        </Menu>
+        <Image x:Name="Image" Margin="0,1.6,-0.4,0" Grid.Row="1"/>
+
+    </Grid>
+</Window>
